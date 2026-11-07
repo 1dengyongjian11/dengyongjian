@@ -79,6 +79,9 @@ bin/
 *.dylib
 vendor/
 
+# ---- 工作区工具数据 ----
+.workbuddy/
+
 # ---- 其他 ----
 .DS_Store
 *.zip

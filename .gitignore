@@ -1,0 +1,85 @@
+# ---- 操作系统 ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+.history/
+
+# ---- 环境与密钥（切勿提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets.*
+credentials.*
+
+# ---- 日志与临时文件 ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# ---- Node.js ----
+node_modules/
+dist/
+build/
+next/
+out/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+yarn.lock.bak
+coverage/
+.nyc_output/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+venv/
+.venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- Java / Kotlin / Gradle ----
+target/
+*.class
+*.jar
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# ---- Go ----
+bin/
+*.exe
+*.dll
+*.so
+*.dylib
+vendor/
+
+# ---- 其他 ----
+.DS_Store
+*.zip
+*.tar.gz
